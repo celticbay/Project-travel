@@ -1,0 +1,111 @@
+/* css code used to change the center image of home page - this works on its own - but when the layout is added with the header and nav with the links to other pages nothing sits correctly*/
+
+/*body{ 
+    background-image: url(./Images/Background/projecteye.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}*/
+
+
+.btn-container {
+    background-color:lightblue;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;    /*added*/
+    border: solid 1px;       /*added*/
+}
+
+.content {   
+    display:flex;    /*added*/
+    justify-content:center;  /*added*/
+}
+
+button {
+    border-radius:20px;   /*added */
+    border:solid lightblue 1px;  /*added*/
+    font-family: monospace;  /*added*/
+    font-size: 10px;  /*added*/
+    color:teal;    /*added*/
+    height:20px;   /*changed*/
+    width:80px;
+    margin:10px;
+    cursor: pointer;    /*added*/
+}
+
+
+button:hover {
+    background-color:ivory;  /*added */
+}
+
+
+
+/*layout througout pages*/
+
+.header {
+    position:relative;    /*added */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:lightblue;
+    text-align: center;
+    font-family:tangerine;
+    font-size: 2rem;
+    padding: 10px;
+    border: solid 1px;
+}
+
+.footer {
+    position:relative;   /*added */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:lightblue;
+    font-family:monospace;
+    text-align: center;
+    padding: 10px;
+    border: solid 1px;
+}
+
+.nav {
+    display:flex;
+    justify-content: center;
+    background-color:ivory;
+    padding: 5px;
+    border: solid px;
+    border-left:solid 1px;  /*added */
+    border-right: solid 1px;  /*added */
+}
+
+.list {
+    list-style:none;
+    display:inline-flex;
+    justify-content:space-around ;
+    flex-wrap:wrap;
+}
+
+.item {
+    display:flex;
+    justify-content:space-between ;
+    flex-wrap:wrap;
+    background-color:lightblue;
+    color:black;
+    font-family: monospace;   /*added*/
+    text-decoration-line:none;
+    border-radius: 5px;
+    padding: 5px;
+    border:solid lightblue 1px;   /*changed to lightblue*/
+    margin:2px;
+    cursor: pointer;
+}
+
+.item:hover {
+background-color:ivory;
+}
+
+/*end of layout througout pages*/
+  
+   
+
+
+
+   
