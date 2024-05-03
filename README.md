@@ -1,8 +1,6 @@
 # Project-travel
 Web-development project
 
-# Project - Code First Girls
-           
 
  'Must Have'
 - A minimum of 2 html web pages and one external CSS file
